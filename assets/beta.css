@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    color: #222831;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+.traduccion {
+    color: #265073 ;
+}
+.titulo {
+    text-align: center;
+    border: 0px solid green;
+    margin-top: 20px;
+}
+
+.resaltado {
+    color: #265073;
+    font-weight: bold;
+}
+.nota {
+    margin: 10px;
+    text-align: justify;
+}
+.audio-file {
+    text-align: center;
+    border: 0px solid green;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.contenedor {
+    
+    margin: auto;
+    width: 70%;
+    border: 0px solid green;
+}
+.contenedor-interior {
+    border: 0px solid rgb(226, 226, 226);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.clases {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid green;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+         
+}
+.c2 {
+    display: flex;
+    justify-content:left;
+    width: 50%;
+    border: 0px solid rgb(128, 26, 0);
+    
+
+}
+.c1 {
+    
+    border: 0px solid rgb(0, 60, 128);
+    width: 50%;
+
+
+    
+}
+
+hr {
+    
+}
+
+
+@media (max-width: 600px) {
+
+    .contenedor {
+        
+        width: 90%;
+        border: 0px solid green;
+    }
+    .clases {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .c1 {
+    
+        border: 0px solid rgb(0, 60, 128);
+        width: 100%;
+    }
+    .c2 {
+    
+        border: 0px solid rgb(0, 60, 128);
+        width: 100%;
+    }
+}
